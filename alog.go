@@ -33,8 +33,8 @@ func New(w io.Writer) *Alog {
 		msgCh:   make(chan string),
 		errorCh: make(chan error),
 		m:       &sync.Mutex{},
-		shutdownCh: make(chan {}),
-		shutdownCompleteCh: make(chan, {}),
+		//shutdownCh: make(chan {}),
+		//shutdownCompleteCh: make(chan, {})
 	}
 }
 
