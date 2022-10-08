@@ -51,7 +51,7 @@ loop:
 		case <-al.shutdownCh:
 			wg.Wait()
 			al.shutdown()
-			break loop
+			break loop5
 		}
 	}
 
